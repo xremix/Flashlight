@@ -1,6 +1,8 @@
 {
    "name": "whenis",
    "displayName": "When Is",
+   "displayName_de": "Wann ist",
    "examples": ["day of week january 21", "date next thursday"],
+   "examples_de": ["wochentag 21 januar", "datum naechster donnerstag"],
    "categories": ["Utilities"]
 }

@@ -1,0 +1,8 @@
+wann ist @date(mittwoch)
+was ist das datum vom @date(dienstag)
+welcher tag der woche ist @date(freitag der 13te)?
+wie ist das datum von @date(morgen)?
+datum @date(next wednesday)
+tag der woche @date(dezember 21)
+wochentag @date(dezember 21)
+@date(oktober 19) wochentag
