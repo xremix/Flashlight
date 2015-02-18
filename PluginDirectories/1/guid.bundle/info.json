@@ -1,0 +1,8 @@
+{
+    "name": "guid",
+    "displayName": "GUID Generator",
+    "examples": ["GUID", "Generate GUID"],
+    "categories": ["Developer"],
+	"creator_name": "Toni Hoffmann (xremix)",
+    "creator_url": "http://xremix.de"
+}
