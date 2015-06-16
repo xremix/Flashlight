@@ -14,17 +14,12 @@
 @interface PluginListController : NSObject
 
 @property (nonatomic) IBOutlet NSView *rightPaneContainer;
-@property (nonatomic,weak) IBOutlet NSArrayController *arrayController;
 @property (nonatomic) IBOutlet NSView *view;
 
 @property (nonatomic) IBOutlet NSView *tableContainer;
-@property (nonatomic) IBOutlet NSTableView *tableView;
 
 @property (nonatomic) IBOutlet NSVisualEffectView *webViewEffectView;
 @property (nonatomic) IBOutlet WebView *webView;
-
-- (void)installPlugin:(PluginModel *)plugin;
-- (void)uninstallPlugin:(PluginModel *)plugin;
 
 @property (nonatomic,weak) IBOutlet NSView *errorBanner;
 @property (nonatomic,weak) IBOutlet NSTextField *errorText;
@@ -37,6 +32,7 @@
 @property (nonatomic) IBOutlet NSOutlineView *sourceList;
 
 - (void)showPluginWithName:(NSString *)name;
+- (void)showInstalledPlugins;
 - (void)showInstalledPluginWithName:(NSString *)name;
 - (void)showCategory:(NSString *)category;
 - (void)showSearch:(NSString *)search;
